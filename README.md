@@ -5,7 +5,7 @@ This encryption application generates random ID and encrypts it using a special 
 The methods utilized in this project are in the Encrypt class, those methods are:
 * generateID = generates Arnold ID by concatenating random number from 100 to 999 with the string "JA".
 
-*arnoldEncrypt = does the special arithmetic operation to the number formed by the last 3 digits of the Arnold ID by multiplying it with 15 then dividing it by 6.
+* arnoldEncrypt = does the special arithmetic operation to the number formed by the last 3 digits of the Arnold ID by multiplying it with 15 then dividing it by 6.
 
 This app has 3 options which are to generate a new Arnold ID which is done by the generateID method, view all of the generated Arnold IDs 
 and their respective encryption keys, and exit.
