@@ -1,10 +1,9 @@
 # Arnoldizer
 
-This encryption application generates random ID and encrypts it using a special arithmetic operation. It uses an ArrayList which contains an object called ArnoldID. The object ArnoldID contains properties as id and arnold_encrypted which is the encryption key for that Arnold ID. 
+This encryption application generates random ID and encrypts it using a special arithmetic operation. It uses an ArrayList which contains objects called ArnoldID. The object ArnoldID contains properties as id which is the Arnold ID and arnold_encrypted which is the encryption key for that Arnold ID. 
 
 The methods utilized in this project are in the Encrypt class, those methods are:
 * generateID = generates Arnold ID by concatenating random number from 100 to 999 with the string "JA".
-
 * arnoldEncrypt = does the special arithmetic operation to the number formed by the last 3 digits of the Arnold ID by multiplying it with 15 then dividing it by 6.
 
 This app has 3 options which are to generate a new Arnold ID which is done by the generateID method, view all of the generated Arnold IDs 
@@ -27,8 +26,6 @@ The second option is used to view all of the created Arnold IDs with their respe
 The third option is used to exit the app:
 
 ![5](https://user-images.githubusercontent.com/89509753/224959588-495b7c15-1140-4b6b-936c-3644ca574441.png)
-
-The special arithmetic operation used to generate is multiplying the number formed by the 3 last digits of the Arnold ID by 15 and divide it by 6. It is done in the arnoldEncrypt method which takes the Arnold ID as its input.  
 
 Example: the randomly generated Arnold ID is "JA521"
 therefore the number obtained from the ID is 521.
